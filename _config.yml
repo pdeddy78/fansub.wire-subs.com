@@ -1,6 +1,11 @@
 #
 # This file contains configuration flags to customize your site
 #
+# Where things are
+collections:
+  my_tags:
+    output: true
+    permalink: /blog/tag/:name/
 
 # Name of your site (displayed in the header)
 name: Wire-Subs
@@ -10,9 +15,6 @@ description: Anime Fansub Indonesia
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/pdeddy78/fansub.wire-subs.com/master/images/logo.png
-
-paginate: 10
-paginate_path: "posts/hal-:num"
 
 author:
   twitter: WireSubs
@@ -60,6 +62,20 @@ baseurl: ""
 #
 
 permalink: /:title/
+paginate: 5
+paginate_path: "posts/hal-:num"
+timezone: Asia/Jakarta
+
+defaults:
+  
+    scope:
+      path: ""
+      type: my_tags
+    values:
+      layout: blog_by_tag
+
+copyright: 2013&mdash;2016
+domain: wire-subs.com
 
 # The release of Jekyll Now that you're using
 version: v1.2.0

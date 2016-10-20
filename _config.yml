@@ -91,4 +91,4 @@ exclude:
   - README.md
   - CNAME
 feed:
-  path: atom.xml
+  path: feed

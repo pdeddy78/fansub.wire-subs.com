@@ -1,9 +1,9 @@
 # Site Info
 title: Wire-Subs
-tagline: 'A Jekyll theme based on Lanyon'
+tagline: 'Anime Fansub Indonesia'
 description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
-baseurl: ""
-url: http://fansub.wire-subs.com
+baseurl: ''
+url: 'http://fansub.wire-subs.com'
 logo: '/public/logo.png'
 
 # Site configurations

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+sitemap: true
 ---
 
 <p class="message">

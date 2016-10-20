@@ -11,6 +11,7 @@ gems:
   - jekyll-paginate
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
 markdown: kramdown
 kramdown:
   input: GFM
@@ -19,10 +20,11 @@ sass:
   style: compressed
   sass_dir: _scss    
 paginate: 5
-paginate_path: '/blog/page:num'
-permalink: pretty
+paginate_path: '/blog/page-:num'
+permalink: /:title/
+timezone: Asia/Jakarta
 
-version: 1.0.0
+version: 3.0.0
 
 # About/contact
 author:
@@ -30,9 +32,8 @@ author:
   description: A passionate <strong>developer and researcher</strong>, learning to be a giant.
   gravatar: 3c2986ad7ac1f2230ea3596f44563328 # md5 hash of your email address
   contact:
-    linkedin:  https://www.linkedin.com/in/lizhihao
     github:    https://github.com/pdeddy78
-    # facebook:  <hide>
+    facebook:  https://facebook.com/WireSubs
     twitter:   https://twitter.com/WireSubs
     email:     http://www.google.com/recaptcha/mailhide/d?k=01I3lZFiZYng9N3QxYEtsDaQ==&c=31wAnZkuKqcG0ATAqJN8Z3ln5kkYLA9TwkGc-IbygpM=
 

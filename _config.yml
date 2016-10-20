@@ -9,7 +9,7 @@ name: Wire-Subs
 description: Anime Fansub Indonesia
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars1.githubusercontent.com/u/3467478?v=3&s=466
+avatar: https://raw.githubusercontent.com/pdeddy78/fansub.wire-subs.com/master/images/logo.png
 
 paginate: 10
 paginate_path: "posts/hal-:num"

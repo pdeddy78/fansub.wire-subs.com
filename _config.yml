@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Deddy Pratama
+name: Wire-Subs
 
 # Short bio or description (displayed in the header)
-description: Full Stack Developer
+description: Anime Fansub Indonesia
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars1.githubusercontent.com/u/3467478?v=3&s=466
@@ -14,6 +14,9 @@ avatar: https://avatars1.githubusercontent.com/u/3467478?v=3&s=466
 paginate: 10
 paginate_path: "posts/hal-:num"
 
+author:
+  twitter: WireSubs
+  
 #
 # Flags below are optional
 #
@@ -87,3 +90,5 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+feed:
+  path: atom.xml

@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Search
+title: Advanced Search
 sitemap: false
 ---
-
 <script>
   (function() {
     var cx = '001598322579128289888:qu5lhz0nbow';

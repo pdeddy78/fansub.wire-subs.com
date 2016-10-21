@@ -11,11 +11,8 @@ logo: '/public/logo_hero.png'
 markdown: kramdown
 kramdown:
   input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
+  
+
 excerpt_separator: '<!-- more -->'
 sass:
   style: compressed

@@ -14,12 +14,28 @@
     {% endif %}
   </title>
   
-  {% if page.title != "Home" %}
+  {% if page.title == "Home" %}
+  <meta property="og:url" content="{{ site.baseurl }}{{ post.id }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ site.title }} &middot; {{ site.tagline }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:image:url" content="{{ site.logo }}" />
+  <meta property="fb:app_id" content="{{ site.fb_app_id }}" />
+  <meta property="og:locale" content="id_ID" />
+  {% else if page.title == "Blog" %}
+  <meta property="og:url" content="{{ site.baseurl }}{{ post.id }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ page.title }} &middot; {{ site.title }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:image:url" content="{{ site.loho }}" />
+  <meta property="fb:app_id" content="{{ site.fb_app_id }}" />
+  <meta property="og:locale" content="id_ID" />
+  {% else %}
   <meta property="og:url" content="{{ site.baseurl }}{{ post.id }}" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="{{ post.title }} &middot; {{ site.title }}" />
-  <meta property="og:description" content="{{ post.content }}" />
-  <meta property="og:image:url" content="{{ post.image }}" />
+  <meta property="og:title" content="{{ page.title }} &middot; {{ site.title }}" />
+  <meta property="og:description" content="{{ page.content }}" />
+  <meta property="og:image:url" content="{{ page.image }}" />
   <meta property="fb:app_id" content="{{ site.fb_app_id }}" />
   <meta property="og:locale" content="id_ID" />
   {% endif %}

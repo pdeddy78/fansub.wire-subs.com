@@ -7,18 +7,20 @@ url:
 logo: '/public/logo_hero.png'
 
 # Site configurations
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
 markdown: kramdown
 kramdown:
   input: GFM
-excerpt_separator: "<!-- more -->"
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+excerpt_separator: '<!-- more -->'
 sass:
   style: compressed
-  sass_dir: _scss    
-paginate: 5
+  sass_dir: _scss 
+
 paginate_path: '/blog/page-:num'
 permalink: /:title/
 timezone: Asia/Jakarta
@@ -55,6 +57,10 @@ hero:
   caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
 
 # Puglins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
 mathjax: true # whether support mathjax
 google_analytics_token:  # leave blank if you don't want google analytics
 disqus_short_name: 'pdeddy78' # leave blank if you don't want disqus

@@ -8,10 +8,10 @@
  <link href="{{ site.baseurl }}/atom.xml" rel="self"/>
  <link href="{{ site.baseurl }}/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}/</id>
+ <id>{{ site.url }}</id>
  <author>
    <name>{{ site.author.name }}</name>
-   <email>{{ site.author.email }}</email>
+   <email>wiresubs@outlook.com</email>
  </author>
 
  {% for post in site.posts %}

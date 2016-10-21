@@ -2,7 +2,7 @@
 title: Wire-Subs
 tagline: 'Anime Fansub Indonesia'
 description: 
-baseurl:
+baseurl: 'http://fansub.wire-subs.com'
 url:
 logo: '/public/logo.png'
 

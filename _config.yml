@@ -17,7 +17,7 @@ excerpt_separator: '<!-- more -->'
 sass:
   style: compressed
   sass_dir: _scss 
-
+paginator: 5
 paginate_path: '/blog/page-:num'
 permalink: /:title/
 timezone: Asia/Jakarta
@@ -55,6 +55,7 @@ hero:
 
 # Puglins
 gems:
+  - jekyll-paginate
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 

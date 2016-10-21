@@ -11,9 +11,6 @@
           <img src="http://www.gravatar.com/avatar/{{ site.author.gravatar }}?s=350" alt="Wire-Subs on Gravatar" />
         </a>
       </div>
-      <div class="sidebar-personal-info-section">
-        <p>{{ site.author.description }}</p>
-      </div>
       {% if site.author.contact %}
       {% assign len = site.author.contact | size %}
       {% assign current_index = 0 %}
@@ -34,13 +31,13 @@
       </div>
       {% endif %}
     </div>
-  </div>
-  <div class="sidebar-item">
-    <form action="/search.html" method="get">
-	  <label for="search-box">Search</label>
-	  <input type="text" id="search-box" name="query">
-	  <input type="submit" value="search">
-	</form>
+	<div class="sidebar-search-box">
+		<form action="/search.html" method="get">
+		  <label for="search-box">Search</label>
+		  <input type="text" id="search-box" name="query">
+		  <input type="submit" value="search">
+		</form>
+	</div>
   </div>
   <nav class="sidebar-nav">
     {% for nav in site.nav %}

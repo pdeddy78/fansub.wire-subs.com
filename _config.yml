@@ -33,7 +33,6 @@ version: 3.0.0
 # About/contact
 author:
   name: Wire-Subs
-  description: A passionate <strong>developer and researcher</strong>, learning to be a giant.
   gravatar: 2c657388aa34fc38d12c9268cc16b151 # md5 hash of your email address
   contact:
     facebook:  https://facebook.com/WireSubs

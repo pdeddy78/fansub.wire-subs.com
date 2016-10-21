@@ -13,7 +13,15 @@
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
-
+  {% if page.title == "Home" %}
+  <meta property="og:url" content="{{ site.baseurl }}" />
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:image" content="{{ site.logo }}" />
+  {% else %}
+  <meta property="og:url" content="{{ post.url }}" />
+  <meta property="og:title" content="{{ post.title }}" />
+  <meta property="og:image" content="{{ post.logo }}" />
+  {% endif %}
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/main.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">

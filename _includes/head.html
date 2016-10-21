@@ -13,6 +13,16 @@
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
+  
+  {% if page.title != "Home" %}
+  <meta property="og:url" content="{{ site.baseurl }}{{ post.id }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="{{ post.title }} &middot; {{ site.title }}" />
+  <meta property="og:description" content="{{ post.content }}" />
+  <meta property="og:image:url" content="{{ post.image }}" />
+  <meta property="fb:app_id" content="210870315782609" />
+  <meta property="og:locale" content="id_ID" />
+  {% endif %}
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/main.css">

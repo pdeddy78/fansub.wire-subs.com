@@ -3,7 +3,7 @@ title: Wire-Subs
 tagline: 'Anime Fansub Indonesia'
 description: 'Unduh Gratis Anime & PV Subtitle Indonesia'
 baseurl: 'http://fansub.wire-subs.com'
-url: 'http://fansub.wire-subs.com/'
+url: 'http://fansub.wire-subs.com'
 logo: '/public/logo.png'
 
 # Site configurations
@@ -15,6 +15,12 @@ gems:
 markdown: kramdown
 kramdown:
   input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+	
 excerpt_separator: "<!-- more -->"
 sass:
   style: compressed

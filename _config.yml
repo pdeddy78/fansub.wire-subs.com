@@ -17,10 +17,7 @@ kramdown:
   input: GFM
   # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
   syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
-	
+
 excerpt_separator: "<!-- more -->"
 sass:
   style: compressed
@@ -64,6 +61,7 @@ hero:
 mathjax: true # whether support mathjax
 google_analytics_token:  # leave blank if you don't want google analytics
 disqus_short_name: 'pdeddy78' # leave blank if you don't want disqus
+fb_app_id: '210870315782609'
 
 feed:
   path: atom.xml

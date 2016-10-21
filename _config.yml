@@ -23,7 +23,7 @@ sass:
   style: compressed
   sass_dir: _scss
 
-paginate: 2
+paginate: 5
 paginate_path: '/blog/page-:num'
 permalink: /:title/
 timezone: Asia/Jakarta
@@ -60,7 +60,7 @@ hero:
 # Puglins
 mathjax: false # whether support mathjax
 google_analytics_token:  # leave blank if you don't want google analytics
-disqus_short_name: 'pdeddy78' # leave blank if you don't want disqus
+disqus_short_name: 'wiresubs' # leave blank if you don't want disqus
 fb_app_id: '210870315782609'
 
 feed:

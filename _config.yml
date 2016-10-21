@@ -2,22 +2,25 @@
 title: Wire-Subs
 tagline: 'Anime Fansub Indonesia'
 description: 
-baseurl: 'http://fansub.wire-subs.com'
+baseurl:
 url:
-logo: '/public/logo_hero.png'
+logo: '/public/logo.png'
 
 # Site configurations
-
+gems:
+  - jekyll-paginate
+  - jemoji
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  
 markdown: kramdown
 kramdown:
   input: GFM
-  
-
-excerpt_separator: '<!-- more -->'
+excerpt_separator: "<!-- more -->"
 sass:
   style: compressed
-  sass_dir: _scss 
-paginator: 5
+  sass_dir: _scss    
+paginate: 5
 paginate_path: '/blog/page-:num'
 permalink: /:title/
 timezone: Asia/Jakarta
@@ -40,8 +43,6 @@ nav:
     - '/blog/'
     - { Categories: '/blog/categories/' }
     - { Tags: '/blog/tags/' }
-  Search:
-    - '/search/'
   About:          
     - '/about/'
 
@@ -54,14 +55,7 @@ hero:
   caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
 
 # Puglins
-gems:
-  - jekyll-paginate
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
 mathjax: true # whether support mathjax
 google_analytics_token:  # leave blank if you don't want google analytics
 disqus_short_name: 'pdeddy78' # leave blank if you don't want disqus
 
-feed:
-  path: rss.xml

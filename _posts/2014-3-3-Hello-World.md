@@ -1,6 +1,7 @@
 ---
 layout: post
 title: You're up and running!
+image: {{ site.baseurl }}/public/img/config.png
 tags: [jekyll]
 sitemap: true
 ---

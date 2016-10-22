@@ -1,7 +1,7 @@
 compress_html:
-  clippings: [div, p, ul, td, h1, h2]
+  clippings: all
   comments: ["<!-- ", " -->"]
-  endings: [p, li, td]
+  endings: all
   ignore:
     envs: [local]
   blanklines: false

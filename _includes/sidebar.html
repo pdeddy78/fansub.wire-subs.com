@@ -72,8 +72,19 @@
       </span>
 
     {% endfor %}
-
-    <span class="sidebar-nav-item">Currently v{{ site.version }} - @template = Liquid::Template.parse("{% project_version commit short %}") @template.render</span>
+	<?php
+	$objCurl = curl_init();
+	//The repo we want to get
+	curl_setopt($objCurl, CURLOPT_URL, "https://api.github.com/repos/pdeddy78/fansub.wire-subs.com/commits");
+	//To comply with https://developer.github.com/v3/#user-agent-required
+	curl_setopt($objCurl, CURLOPT_USERAGENT, "Wire-Subs"); 
+	//Skip verification (kinda insecure)
+	curl_setopt($objCurl, CURLOPT_SSL_VERIFYPEER, false);
+	//Get the response
+	$response = curl_exec($objCurl);
+	print_r( json_decode($response, true) );	
+	?>
+    <span class="sidebar-nav-item">Currently v{{ site.version }} - </span>
   </nav>
 
   <div class="sidebar-item">

@@ -56,8 +56,8 @@ tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
 hero:
-  image: /public/img/we_will_be_giants_by_yalestewart.jpg
-  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
+  image: http://pre13.deviantart.net/ec94/th/pre/f/2016/145/d/a/morning_by_guweiz-da3qqvy.jpg
+  caption: Original Artwork &copy; <a href="http://guweiz.deviantart.com/art/Morning-610948510">GUWEIZ</a>
 
 # Puglins
 mathjax: false # whether support mathjax

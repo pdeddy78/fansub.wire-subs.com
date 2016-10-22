@@ -1,3 +1,13 @@
+compress_html:
+  clippings: [div, p, ul, td, h1, h2]
+  comments: ["<!-- ", " -->"]
+  endings: [p, li, td]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: true
+  startings: [html, head, body]
+
 # Site Info
 title: Wire-Subs
 tagline: 'Anime Fansub Indonesia'

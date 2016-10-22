@@ -73,7 +73,7 @@
 
     {% endfor %}
 
-    <span class="sidebar-nav-item">Currently v{{ site.version }} - {% raw  %} {% project_version commit short %} {% endraw %}</span>
+    <span class="sidebar-nav-item">Currently v{{ site.version }} - @template = Liquid::Template.parse("{% project_version commit short %}") @template.render</span>
   </nav>
 
   <div class="sidebar-item">

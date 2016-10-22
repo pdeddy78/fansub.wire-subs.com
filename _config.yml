@@ -6,7 +6,7 @@ compress_html:
     envs: [local]
   blanklines: false
   profile: false
-  startings: [html, head, body]
+  startings: [body]
 
 # Site Info
 title: Wire-Subs

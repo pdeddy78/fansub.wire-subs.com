@@ -56,7 +56,7 @@ tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
 hero:
-  image: 'http://pre13.deviantart.net/ec94/th/pre/f/2016/145/d/a/morning_by_guweiz-da3qqvy.jpg'
+  image: /public/img/morning_by_guweiz-da3qqvy.jpg
   caption: Original Artwork &copy; <a href="http://guweiz.deviantart.com/art/Morning-610948510">GUWEIZ</a>
 
 # Puglins

@@ -8,7 +8,7 @@
  <link href="{{ site.baseurl }}/atom.xml" rel="self"/>
  <link href="{{ site.baseurl }}/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
+ <id>{{ site.url }}/</id>
  <author>
    <name>{{ site.author.name }}</name>
    <email>wiresubs@outlook.com</email>
@@ -19,8 +19,8 @@
    <title>{{ post.title | xml_escape }}</title>
    <link href="{{ site.url }}{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ post.id }}</id>
-   <category term=" {{ post.tag }} " />
+   <id>{{ site.url }}{{ post.id }}</id>
+   <category term="{{ post.tag }}" />
    <summary type="html">{{ post.excerpt | xml_escape }}</summary>
    <content type="html">{{ post.content | xml_escape }}</content>
    <rights type="html">© 2013 Wire-Subs.com</rights>

@@ -2,7 +2,9 @@
 layout: post
 title: Aria The Origination - 01
 author: wiresubs
-nid: 298
+url: Aria_The_Origination_01_BD
+category: Anime BD
+tag: aria-origination
 created: 1472858100
 excerpt: !ruby/string:Sequel::SQL::Blob "<p>Unduh Aria The Origination BD Eps.01<br
   />\r\nSubtitle Bahasa Indonesia<br />\r\nScore:&nbsp;8.66&nbsp;<a href=\"https://myanimelist.net/anime/3297/Aria_The_Origination\"

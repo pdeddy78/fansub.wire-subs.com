@@ -66,6 +66,8 @@ fb_app_id: '210870315782609'
 feed:
   path: atom.xml
   
+safe: false
+
 sitemap:
     file: "/sitemap.xml"
     exclude:

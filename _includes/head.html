@@ -15,14 +15,14 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{{ site.title }} &middot; {{ site.tagline }}" />
   <meta property="og:description" content="{{ site.description }}" />
-  <meta property="og:image:url" content="{{ site.baseurl }}/{{ site.logo }}" />
+  <meta property="og:image" content="{{ site.baseurl }}/{{ site.logo }}" />
   <meta property="fb:app_id" content="{{ site.fb_app_id }}" />
   <meta property="og:locale" content="id_ID" />
   {% else if page.title == "Blog" %}
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{{ page.title }} &middot; {{ site.title }}" />
   <meta property="og:description" content="{{ site.description }}" />
-  <meta property="og:image:url" content="{{ site.baseurl }}/{{ site.logo }}" />
+  <meta property="og:image" content="{{ site.baseurl }}/{{ site.logo }}" />
   <meta property="fb:app_id" content="{{ site.fb_app_id }}" />
   <meta property="og:locale" content="id_ID" />
   {% else %}
@@ -30,7 +30,7 @@
   <meta property="og:title" content="{{ page.title }} &middot; {{ site.title }}" />
   <meta property="og:description" content="{{ page.content }}" />
   <meta name="author" content="{{ page.author }}"> 
-  <meta property="og:image:url" content="{{ page.image }}" />
+  <meta property="og:image" content="{{ page.image }}" />
   <meta property="fb:app_id" content="{{ site.fb_app_id }}" />
   <meta property="og:locale" content="id_ID" />
   {% endif %}

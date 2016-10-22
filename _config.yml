@@ -4,7 +4,7 @@ tagline: 'Anime Fansub Indonesia'
 description: 'Unduh Gratis Anime & PV Subtitle Indonesia'
 baseurl: 'http://fansub.wire-subs.com'
 url: 'http://fansub.wire-subs.com'
-logo: 'public/logo.png'
+logo: '/public/logo.png'
 
 # Site configurations
 gems:

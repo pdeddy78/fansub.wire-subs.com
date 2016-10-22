@@ -43,11 +43,11 @@ author:
 # Navigation (2nd level links supported)
 nav:
   Blog:           
-    - '/blog/'
+    - '#blog/'
     - { Categories: '/blog/categories/' }
     - { Tags: '/blog/tags/' }
   About:          
-    - '/about/'
+    - '#about/'
 
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'

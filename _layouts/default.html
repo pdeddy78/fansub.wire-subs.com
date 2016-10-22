@@ -29,12 +29,20 @@
       </div>
 
       <div class="container content">
+	    {% include root %}
         {{ content }}
       </div>
     </div>
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
+	<script>
+	$.getJSON('html.json', function(data) {
+	   $('#page_holder').pagify({ 
+		   pages: data, 
+		   default: 'home'
+	   }); 
+	});
+	</script>
     <script>
       (function(document) {
         var toggle = document.querySelector('.sidebar-toggle');

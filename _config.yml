@@ -11,6 +11,7 @@ gems:
   - jekyll-paginate
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll_version_plugin
   
 markdown: kramdown
 kramdown:
@@ -65,3 +66,10 @@ fb_app_id: '210870315782609'
 
 feed:
   path: atom.xml
+  
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"

@@ -20,7 +20,7 @@
    <link href="{{ site.url }}{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ post.id }}</id>
-   <category term="<![CDATA[ {{ post.tag }} ]]> />
+   <category term=" {{ post.tag }} " />
    <summary type="html">{{ post.excerpt | xml_escape }}</summary>
    <content type="html">{{ post.content | xml_escape }}</content>
    <rights type="html">© 2013 Wire-Subs.com</rights>

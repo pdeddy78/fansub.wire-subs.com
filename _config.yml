@@ -1,12 +1,12 @@
 compress_html:
-  clippings: all
+  clippings: []
   comments: ["<!-- ", " -->"]
   endings: [p, li, td]
   ignore:
     envs: [local]
   blanklines: false
   profile: false
-  startings: [html, body]
+  startings: [html, head, body]
 
 # Site Info
 title: Wire-Subs

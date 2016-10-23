@@ -14,7 +14,8 @@ Some fun facts about the setup of this project:
 <ul>
 {% for staff in site.data.staff %}
   <li>
-    [{{ staff.name }}](https://facebook.com/{{ staff.facebook }}) from <small>{{ staff.joined | date_to_string }}</small>
+	<a href="https://facebook.com/{{ staff.facebook }}" alt="{{ staff.name }}">{{ staff.name }}</a>
+    from <small>{{ staff.joined | date_to_string }}</small>
   </li>
 {% endfor %}
 </ul>

@@ -5,7 +5,7 @@ description: 'Unduh Gratis Anime & PV Subtitle Bahasa Indonesia'
 baseurl: 'http://fansub.wire-subs.com'
 url: 'http://fansub.wire-subs.com'
 logo: '/public/logo.png'
-
+include: ['.htaccess']
 # Site configurations
 gems:
   - jekyll-paginate

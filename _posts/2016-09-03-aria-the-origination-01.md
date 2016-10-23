@@ -3,7 +3,7 @@ layout: post
 title: Aria The Origination - 01
 author: wiresubs
 alias: Aria_The_Origination_01_BD
-category: Anime BD, Series
+category: Anime BD
 tag: aria-origination
 created: 1472858100
 excerpt: !ruby/string:Sequel::SQL::Blob "<p>Unduh Aria The Origination BD Eps.01<br

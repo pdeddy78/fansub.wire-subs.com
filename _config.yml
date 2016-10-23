@@ -9,8 +9,8 @@ logo: '/public/logo.png'
 # Site configurations
 gems:
   - jekyll-paginate
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-sitemap
+  - jekyll-feed
   - jekyll-tagging-related_posts
   
 markdown: kramdown

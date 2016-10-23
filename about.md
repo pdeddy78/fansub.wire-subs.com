@@ -10,9 +10,9 @@ title: About
 
 ## Staff
 
-Some fun facts about the setup of this project include:
+Some fun facts about the setup of this project:
 <ul>
-{% for member in site.data.members %}
+{% for staff in site.data.staff %}
   <li>
     [{{ staff.name }}] (https://facebook.com/{{ staff.facebook }}) from <small>{{ staff.joined | date_to_string }}</small>
   </li>

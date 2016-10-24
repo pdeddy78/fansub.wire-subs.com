@@ -6,7 +6,9 @@ title: About
 <p class="message">
   Hi!
 </p>
-
+<div class="hero">
+<img src="{{ site.baseurl }}/public/img/baka.jpg">
+</div>
 
 ## Staff
 

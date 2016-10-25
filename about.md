@@ -16,7 +16,7 @@ Some fun facts about the setup of this project:
 <ul>
 {% for staff in site.data.staff %}
   <li>
-	<a href="https://facebook.com/{{ staff.facebook }}" alt="{{ staff.name }}" target="_blank">{{ staff.name }}</a>
+	{{ staff.name }}
     from <small>{{ staff.joined }}</small>
   </li>
 {% endfor %}
